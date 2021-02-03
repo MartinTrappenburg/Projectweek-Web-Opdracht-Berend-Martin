@@ -1,0 +1,26 @@
+.jumbotron{
+    background: no-repeat center center;
+    background-size: 120% 80%;
+}
+
+#Minecraft_banner {
+    margin: auto;
+    margin-top: -2.1%;
+}
+
+#Body {
+    background-color: black;
+    color: white;
+}
+#Navbar_container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.045%;
+}
+#Banner_subtext {
+    color: black;
+    font-size: 200%;
+    font-family: Fantasy, "oopperplate";
+    text-align: center;
+    margin-top: 20%;
+}
