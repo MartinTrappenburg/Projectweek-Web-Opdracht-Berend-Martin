@@ -19,13 +19,13 @@
     <div id="FUCKINGCONTAINER1"></div>
       <div id="Minecraft_banner" class="jumbotron jumbotron-fluid" style="background-image: url('./img/minecraft.png');">
         <div class="container">
-          <h1 class="display-4" id="Banner_subtext">Gather, craft, Create!</h1>
+          <h1 class="display-4" id="Banner_subtext">Gather, Craft, Create!</h1>
         </div>
       </div>
 
       <!-- Navbar for webpage navigation -->
-      <div id="Navbar_container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-center">
+      <div id="Navbar_container" class="bg-dark">
+        <nav id="Nav_content" class="navbar navbar-expand-lg navbar-light bg-dark">
           <a class="navbar-brand text-light" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,9 +33,11 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="text-light nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="text-light nav-item nav-link" href="#">Features</a>
-              <a class="text-light nav-item nav-link" href="#">Pricing</a>
+              <a class="text-light nav-item nav-link active" href="#">About Minecraft? <span class="sr-only">(current)</span></a>
+              <a class="text-light nav-item nav-link" href="#">Creator</a>
+              <a class="text-light nav-item nav-link" href="#">Versions</a>
+              <a class="text-light nav-item nav-link" href="#">Mods</a>
+              <a class="text-light nav-item nav-link" href="#">Multiplayer</a>
             </div>
           </div>
         </nav>
