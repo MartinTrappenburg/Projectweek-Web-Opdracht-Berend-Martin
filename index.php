@@ -1,6 +1,6 @@
 <?php
       require_once('./connect.php');
-      $sql = "SELECT * FROM `projectweek`";
+      $sql = "SELECT * FROM `commentsection`";
       $result = mysqli_query($conn, $sql);
       $records = "";
       while ($record = mysqli_fetch_assoc($result))
@@ -8,6 +8,7 @@
           $records .= "<tr>
                           <th scope='row' class='generated-text'>" . $record["username"] . "</th>
                           <td class='generated-text'>" . $record["comment"] . "</td>
+                          <td class='generated-text'>
                           <td>
                               <a href='./delete.php?id=" . $record["id"] . "'>
                                   <img src='./img/icons/b_drop.png' alt='pencil'>
@@ -103,7 +104,7 @@
     <!--Comment section-->
     <h1>Comments</h1>
     <div class="row">
-        <div class="col-6">
+        <div class="col-2">
           <form action="./create.php" method="post">
             <div class="form-group">
               <label for="user">Username</label>
@@ -112,29 +113,32 @@
             
             <div class="form-group">
               <label for="commenttext">Comment</label>
-              <input type="text" class="form-control text-white bg-dark" id="commenttext" aria-describedby="commentHelp" placeholder="Comment here" name="commenttext">
+              <input type="text" class="form-control text-white bg-dark" id="commenttext" aria-describedby="commentHelp" placeholder="Comment here" name="commenttext" required>
             </div>
+            <button type="submit" class="btn btn-primary">Comment</button>
           </form>
         </div>
 
         <!--Comment list-->
-        <div class="col-12">
-      <table class="table table-hover">
-        <thead>
-            <tr>
-            <th class='generated-text' scope="col">username</th>
-            <th class='generated-text' scope="col">comment</th>
+        <div id="commentcontainer">
+          <div class="col-3">
+            <table class="table table-hover text-light">
+              <thead>
+                  <tr>
+                  <th class='generated-text' scope="col">username</th>
+                  <th class='generated-text' scope="col">comment</th>
 
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-                echo $records;
-            ?>
-        </tbody>
-        </table>
+                  </tr>
+              </thead>
+              <tbody>
+                  <?php
+                      echo $records;
+                  ?>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
