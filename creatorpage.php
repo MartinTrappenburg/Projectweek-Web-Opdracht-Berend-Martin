@@ -24,7 +24,7 @@
       </div>
 
       <!-- Navbar for webpage navigation -->
-      <div id="Navbar_container" class="bg-dark">
+      <div class="bg-dark">
         <nav id="Nav_content" class="navbar navbar-expand-lg navbar-light bg-dark">
           <a class="navbar-brand text-light" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,20 +33,37 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="text-light nav-item nav-link active" href="#">About Minecraft? <span class="sr-only">(current)</span></a>
-              <a class="text-light nav-item nav-link" href="#">Creator</a>
-              <a class="text-light nav-item nav-link" href="#">Versions</a>
-              <a class="text-light nav-item nav-link" href="#">Mods</a>
-              <a class="text-light nav-item nav-link" href="#">Multiplayer</a>
+              <a class="text-light nav-item nav-link active" href="./index.php">About Minecraft <span class="sr-only">(current)</span></a>
+              <a class="text-light nav-item nav-link" href="./creatorpage.php">Creator</a>
+              <a class="text-light nav-item nav-link" href="./gameversions.php">Versions</a>
+              <a class="text-light nav-item nav-link" href="./mods.php">Mods</a>
+              <a class="text-light nav-item nav-link" href="./multiplayer.php">Multiplayer</a>
             </div>
           </div>
         </nav>
       </div>
     </div>
 
-
+    <!--Main div for text-->
     <div id="Main_body_text">
-      <h1></h1>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
+      <h1 class="Paragrap_title">Titel hier</h1>
+      <p class="Paragraph_text">text hier</p>
+      <br>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

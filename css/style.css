@@ -1,3 +1,8 @@
+#Body {
+    background-color: black;
+    color: white;
+}
+
 .jumbotron{
     background: no-repeat center center;
     background-size: 120% 80%;
@@ -9,13 +14,10 @@
 }
 
 #Nav_content {
-    margin-left: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
-#Body {
-    background-color: black;
-    color: white;
-}
 #Navbar_container {
     margin-left: auto;
     margin-right: auto;
@@ -27,4 +29,12 @@
     font-family: Fantasy, "oopperplate";
     text-align: center;
     margin-top: 20%;
+}
+
+#Main_body_text {
+    float: left;
+    color: white;
+    margin-left: 32%;
+    margin-right: 32%;
+    max-width: 38%;
 }
