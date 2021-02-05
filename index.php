@@ -68,8 +68,20 @@
 
     <!--Main div for text-->
     <div id="Main_body_text">
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
+      <h1 class="Paragrap_title">Minecraft</h1>
+      <p class="Paragraph_text">Minecraft is een sandbox constructie game, gecreëerd door Mojang Studios in 2009.
+      De game is bedacht/gemaakt door Markus Notch Persson in de programmeertaal Java.
+      Voordat de game echt startten waren er eerst nog een paar testversies.
+      De echte volledige game kwam uit in 2011 met multiplayer en singleplayer.
+      Sindsdien is Minecraft ook uitgekomen voor andere platformen en is het de best-verkochte game aller tijde.
+      Minecraft is wel meer dan 200 miljoen keer gekocht en heeft maandelijks meer dan 120 miljoen  actieve gebruikers. 
+      In minecraft heb je een wereld met een oneindig gegenereerd terrein. Dit terrein bestaat uit verschillende biomes er zijn in totaal 12 tot 52 Biomes(hangt af met welke release je speelt) waar allemaal andere eigenschappen zijn. 
+      Je hebt ook de optie om naar the Nether te gaan, een soort onderwereld met meer variaties aan blokken en mineralen.
+      Er zijn ook nog sinds de laatste update(1.16) zijn er ook meer biomes in de nether.
+      Er is ook the End hierin is de eindbaas the Enderdragon die moet je verslaan en dan heb je de storyline afgemaakt en dan kan je gaan beginnen met waar je maar zin in hebt. 
+      De gameplay bestaat uit het veranderen van een ingeladen wereld waar je blokken kan weghalen en plaatsen. Je hebt ook de mogelijkheid om ondergronds te gaan en te gaan minen met tools om mineralen te vinden.
+      De graphics van het spel zijn misschien wel het meest kenmerkende aan Minecraft het bestaat namelijk volledig uit vierkante blokken en andere hoekige figuren deze andere figuren in kwestie lijken op iets zoals in het echte leven maar dan heel vierkant. 
+      </p>
       <br>
       <h1 class="Paragrap_title">Titel hier</h1>
       <p class="Paragraph_text">text hier</p>

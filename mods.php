@@ -49,8 +49,23 @@
 
     <!--Main div for text-->
     <div id="Main_body_text">
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
+      <h1 class="Paragrap_title">Minecraft Mods</h1>
+      <p class="Paragraph_text">Minecraft Mods 
+      Minecraft Mods is kort gezegd Minecraft modification het beschrijft de output of het proces van het toevoegen van aangepaste items en blokken aan Minecraft. Met modding kunnen gebruikers het spel met een open einde uitbreiden met nieuwe tools, blokken, mobs en meer. 
+      Hoe maak je zelf mods voor Minecraft?
+      Java is een krachtige programmeertaal voor meerdere platforms en een van de betere opties als het gaat om coderingstalen voor kinderen. Het wordt gebruikt voor veel professionele en commerciële applicaties, waaronder de game Minecraft, Android-applicaties en zelfs het Android-besturingssysteem zelf.
+      Java-code maakt het mogelijk om gemodificeerde flair toe te voegen aan Minecraft!
+      De meest gebuikte mods zijn 
+      Optifine.
+      Journeymap.
+      Not Enough Items.
+      WAILA.
+      Inventory Tweaks.
+      Playable Minecraft in a Chest.
+      Controlling.
+      Chisel 2.
+      En de create mod. 
+      </p>
       <br>
       <h1 class="Paragrap_title">Titel hier</h1>
       <p class="Paragraph_text">text hier</p>
