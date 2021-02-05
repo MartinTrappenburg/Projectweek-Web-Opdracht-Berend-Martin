@@ -1,3 +1,22 @@
+<?php
+      require_once('./connect.php');
+      $sql = "SELECT * FROM `projectweek`";
+      $result = mysqli_query($conn, $sql);
+      $records = "";
+      while ($record = mysqli_fetch_assoc($result))
+      {
+          $records .= "<tr>
+                          <th scope='row' class='generated-text'>" . $record["username"] . "</th>
+                          <td class='generated-text'>" . $record["comment"] . "</td>
+                          <td>
+                              <a href='./delete.php?id=" . $record["id"] . "'>
+                                  <img src='./img/icons/b_drop.png' alt='pencil'>
+                              </a>
+                          </td>
+                      </tr>";
+      }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -67,6 +86,42 @@
       <h1 class="Paragrap_title">Titel hier</h1>
       <p class="Paragraph_text">text hier</p>
       <br>
+    </div>
+
+    <!--Comment section-->
+    <h1>Comments</h1>
+    <div class="row">
+        <div class="col-6">
+          <form action="./create.php" method="post">
+            <div class="form-group">
+              <label for="user">Username</label>
+              <input type="text" class="form-control text-white bg-dark" id="username" aria-describedby="userHelp" placeholder="Username here" name="username" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="commenttext">Comment</label>
+              <input type="text" class="form-control text-white bg-dark" id="commenttext" aria-describedby="commentHelp" placeholder="Comment here" name="commenttext">
+            </div>
+          </form>
+        </div>
+
+        <!--Comment list-->
+        <div class="col-12">
+      <table class="table table-hover">
+        <thead>
+            <tr>
+            <th class='generated-text' scope="col">username</th>
+            <th class='generated-text' scope="col">comment</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+                echo $records;
+            ?>
+        </tbody>
+        </table>
+      </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
