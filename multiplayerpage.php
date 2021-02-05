@@ -10,8 +10,12 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Icon for webpage-->
+    <link rel="shortcut icon" href="./img/cube.ico" type="image/x-icon">
     
-    <title>Hello, world!</title>
+    <!--Page Title-->
+    <title>Minecraft Wiki</title>
   </head>
   
   <body id="Body">
@@ -26,14 +30,13 @@
       <!-- Navbar for webpage navigation -->
       <div class="bg-dark">
         <nav id="Nav_content" class="navbar navbar-expand-lg navbar-light bg-dark">
-          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <a class="navbar-brand text-light" href="./index.html">Home</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="text-light nav-item nav-link active" href="./index.php">About Minecraft <span class="sr-only">(current)</span></a>
               <a class="text-light nav-item nav-link" href="./creatorpage.php">Creator</a>
               <a class="text-light nav-item nav-link" href="./gameversions.php">Versions</a>
               <a class="text-light nav-item nav-link" href="./mods.php">Mods</a>
