@@ -63,17 +63,8 @@
       In november 2017 werd Persson bekritiseerd voor het plaatsen van een tweet met de tekst: "Het is oké om blank te zijn". In vervolg-tweets zei hij dat hij geloofde dat privilege een "verzonnen maatstaf" is. In maart 2019 kreeg hij kritiek omdat hij transgendervrouwen geestelijk ziek noemde. Deze controverses leidden tot de creatie van de internetmeme "Hatsune Miku created Minecraft", die opkwam als gevolg van een virale tweet en werd gemaakt door fans van het spel om steun te betuigen aan Minecraft terwijl ze afstand namen van Persson.
 
       Een Minecraft-update van maart 2019 verwijderde stilletjes verwijzingen naar Persson uit het menu van de game, hoewel zijn naam nog steeds in de aftiteling staat. Microsoft heeft de exacte redenen niet gespecificeerd, maar de timing van de verwijdering leidde ertoe dat meerdere nieuwsuitzendingen concluderen dat het verband hield met de controversiële tweets. Persson was later dat jaar niet uitgenodigd om deel te nemen aan het tienjarig jubileumevenement van Minecraft, waarbij Microsoft zei dat zijn opvattingen "niet die van Microsoft of Mojang weerspiegelen". Microsoft nam afstand van Persson vanwege zijn controversiële opmerkingen op zijn Twitter-account.
-</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
+      </p>
+      
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

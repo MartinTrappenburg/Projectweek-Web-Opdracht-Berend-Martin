@@ -66,22 +66,7 @@
       Chisel 2.
       En de create mod. 
       </p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
+      
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

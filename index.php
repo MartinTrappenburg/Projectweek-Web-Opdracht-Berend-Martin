@@ -63,22 +63,7 @@
       De gameplay bestaat uit het veranderen van een ingeladen wereld waar je blokken kan weghalen en plaatsen. Je hebt ook de mogelijkheid om ondergronds te gaan en te gaan minen met tools om mineralen te vinden.
       De graphics van het spel zijn misschien wel het meest kenmerkende aan Minecraft het bestaat namelijk volledig uit vierkante blokken en andere hoekige figuren deze andere figuren in kwestie lijken op iets zoals in het echte leven maar dan heel vierkant. 
       </p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
-      <h1 class="Paragrap_title">Titel hier</h1>
-      <p class="Paragraph_text">text hier</p>
-      <br>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
