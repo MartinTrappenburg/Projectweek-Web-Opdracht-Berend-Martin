@@ -2,7 +2,7 @@
     require_once('./connect.php');
     require("./functions.php");
     $username = cleanup($_POST["username"]);
-    $comment = cleanup($_POST["comment"]);
+    $comment = cleanup($_POST["commenttext"]);
 
     $sql = "INSERT INTO 'commentsection' ('id', 'username', 'comment') VALUES (NULL, '$username', '$comment')";
 
